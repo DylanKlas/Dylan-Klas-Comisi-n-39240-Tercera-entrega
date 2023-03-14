@@ -1,0 +1,171 @@
+/*Para todos los htmls*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html {
+  font-size: 54.3744%; /*El font size por defecto me da
+  18,391px. Entonces para que 1rem = 10px hago regla de 3 
+  simple y me da 54.3744%. */
+}
+
+html,
+body {
+  min-height: 100% !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+header {
+  background-color: #e2531c;
+}
+
+header a:hover {
+  background-color: #cb4a19;
+}
+
+main img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: center;
+  justify-content: center;
+}
+
+.login-main-comentarios {
+  background-color: #e2531c;
+  margin-top: 2rem auto !important;
+}
+
+.ong-close-icon {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+}
+
+.ong-dard-icon {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+}
+
+footer div {
+  background-color: #aaaaaa;
+}
+
+footer p {
+  white-space: normal !important;
+  display: block;
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 767px) {
+  h2,
+  h3 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  header img {
+    width: 100%;
+  }
+  header p {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  form,
+  input[type="submit"] {
+    margin: 1rem auto;
+    font-size: 2rem;
+  }
+  footer img {
+    width: auto;
+    height: auto;
+    max-width: 2rem;
+    max-height: 2rem;
+    margin: 0 1rem;
+  }
+}
+
+/* Tablet Screen */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h2,
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2.4rem;
+  }
+  header img {
+    width: calc(100% / 2);
+  }
+  header p {
+    display: none;
+  }
+  .logo {
+    width: 60%;
+  }
+  div .navbar-brandP {
+    display: flex;
+  }
+  form,
+  input[type="submit"] {
+    margin: 2rem auto;
+    font-size: 2.4rem;
+  }
+
+  footer img {
+    width: auto;
+    height: auto;
+    max-width: 2.4rem;
+    max-height: 2.4rem;
+    margin: 0 1rem;
+  }
+}
+
+/* Desktop Screen */
+@media screen and (min-width: 1024px) {
+  h2,
+  h3 {
+    font-size: 3.6rem;
+  }
+  p {
+    font-size: 3rem;
+  }
+  header img {
+    width: calc(100% / 2);
+  }
+  header p {
+    display: flex;
+    font-size: 1.4rem;
+  }
+  .logo {
+    width: 70%;
+  }
+  div .navbar-brandP {
+    display: flex;
+  }
+  form,
+  input[type="submit"] {
+    margin: 2rem auto;
+    font-size: 3rem;
+  }
+  footer img {
+    width: auto;
+    height: auto;
+    max-width: 3rem;
+    max-height: 3rem;
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+Hola Yamila, como andas?
+
+Para esta entrega pude terminar las 2 páginas en bootstrap de aboutus.html y login.html, corrigiendo cuando el texto salía de las cajas, y cambiando el diseño del header, tamaño de las letras y que se muestre según la pantalla mobile-tablet-desktop 1 columna o múltiples columnas.
+
+No llegué a que se vea bien en las otras 3 páginas. Estoy trabajando actualmente con los position relatives de la página de ong.html. 
+
+Decidí usar bootstrap para llegar para la entrega final con todos los html's que piden como lo establece la guía de trabajos prácticos.
+
+Espero mejorar el nivel para esta última entrega porque sé que me falta mucho todavía.
+
+Gracias y disculpas.
